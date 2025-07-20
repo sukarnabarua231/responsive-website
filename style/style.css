@@ -238,3 +238,16 @@
 .sponser-img img{
     filter: grayscale(100%);
 }
+/* footer-style */
+footer{
+     max-width: 1440px;
+    margin: 0 auto;
+     width: 90%;
+     margin-top: 100px;
+     margin-bottom: 130px;
+     text-align: center;
+     padding: 30px 0;
+     background-color: rgba(255, 144, 14, 0.1);
+     font-weight: 500;
+     font-size: 1.2rem;
+}
