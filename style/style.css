@@ -82,3 +82,29 @@
     padding-top: 40px; 
     padding-bottom: 20px;
 }
+/* features-styles */
+.features{
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 50px;
+    padding: 20px;
+    align-items: center;
+    gap: 50px;
+}
+.features-img{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 15px;
+}
+.features-img img{
+    border-radius: 5px;
+    max-width: 320px;
+    max-height: 320px;
+}
+.features-content h3{
+  font-weight: 600;
+  font-size: 2.5rem;
+}
+.features-content p,button{
+    margin-top: 20px;
+}
