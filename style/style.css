@@ -212,3 +212,29 @@
     font-weight: 400;
     font-size: 1.2rem;
 }
+/* .sponser-style */
+.sponser{
+    max-width: 1440px;
+    margin: 0 auto;
+     width: 87%;
+     margin-top: 100px;
+}
+.sponser-content{
+    text-align: center;
+}
+.sponser-content h2{
+    font-weight: bold;
+    font-size: 2.5rem;
+}
+.sponser-content p{
+    font-weight: 400;
+    font-size: 1rem;
+    margin-top: 20px;
+}
+.sponser-img{
+    margin-top: 50px;
+    justify-content: space-between;
+}
+.sponser-img img{
+    filter: grayscale(100%);
+}
