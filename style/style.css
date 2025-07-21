@@ -35,6 +35,9 @@
     display: flex;
 }
 /* header style */
+.nav-item i{
+    display: none;
+}
 
 .navbar,.banner{
     max-width: 1440px;
@@ -250,4 +253,53 @@ footer{
      background-color: rgba(255, 144, 14, 0.1);
      font-weight: 500;
      font-size: 1.2rem;
+}
+/* responsive-style */
+@media screen and (max-width:576px){
+    .nav-link{
+        display: none;
+    }
+    .nav-item i{
+        display: block;
+    }
+    .brand{
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+.banner-content h1{
+    font-weight: bold;
+    font-size: 2.5rem;
+}
+.features{
+    flex-direction: column-reverse;
+}
+.features-img{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+
+}
+.features-02{
+    flex-direction: column;
+}
+.features-02 img{
+    margin-top: 30px;
+}
+#button{
+    top: -100px;
+    left: -20px;
+}
+.facts{
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 15px;
+}
+.sponser-img{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 20px;
+}
+footer{
+    margin-bottom: 50px;
+}
 }
